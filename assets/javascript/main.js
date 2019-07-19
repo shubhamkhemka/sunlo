@@ -9,7 +9,9 @@ var flag1= false;
 function initEvent(){
     // loadAjax();
     loadsongs();
+    if(localStorage.playList){
     loadPlayList();
+    }
     // playplaylist();
     audio = document.querySelector("#audio");
     playbtn = document.querySelector('#play');
@@ -240,7 +242,7 @@ function nextsong(){
 
           var urll= songs[i+1].s_url;
           id = songs[i+1].s_id;
-          var name =songs[i+1].s_name;
+          var name =songs[i+1].s_name;6
           
    
            break;

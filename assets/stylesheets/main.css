@@ -99,7 +99,7 @@ audio {
         
     }
     #playList {
-        width: 35%;
+        width: 38%;
         margin: 0px;
         padding: 0px;
         text-align: center;
@@ -252,6 +252,9 @@ input[type="range"] {
     }
     #playlist1{
        width: 100%;
+    }
+    #playList{
+        width: 70%;
     }
     .songs{
         width: 100%;
