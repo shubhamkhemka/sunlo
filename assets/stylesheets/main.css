@@ -279,6 +279,33 @@ input[type="range"] {
 
 
 }
+@media(max-width:520px){
+    #songsList{
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+    
+    #songsList li{
+        width: 80%;
+    }
+    input[type="range"]{
+        width: 30%;
+        margin: 0%;
+    }
+ #audioPlayer button{
+     font-size: 8px !important;
+     height: 30px !important;
+     width: 30px !important;
+ }
+ #audioPlayer span{
+     font-size: 13px;
+ }
+ #header .navbar-brand img{
+     width: 50px !important;
+     height: 50px !important;
+ }
+
+}
 @media(max-width:480px){
     #songsList{
         justify-content: center;
