@@ -208,7 +208,7 @@ audio {
 }
 
 input[type="range"] {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 65%;   
     vertical-align: middle;
 }
@@ -300,7 +300,40 @@ input[type="range"] {
  #audioPlayer span{
      font-size: 13px;
  }
+ #header .navbar-brand img{
+     width: 50px !important;
+     height: 50px !important;
+ }
+
 }
+@media(max-width:380px){
+    #songsList{
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+    
+    #songsList li{
+        width: 80%;
+    }
+    input[type="range"]{
+        width: 25%;
+        margin: 0%;
+    }
+ #audioPlayer button{
+     font-size: 6px !important;
+     height: 25px !important;
+     width: 25px !important;
+ }
+ #audioPlayer span{
+     font-size: 11px;
+ }
+ #header .navbar-brand img{
+     width: 50px !important;
+     height: 50px !important;
+ }
+
+}
+
 
 .songs {
     height: 90%;
